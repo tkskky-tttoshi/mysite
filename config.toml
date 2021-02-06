@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Site"
+theme = "hugo-uilite"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	archive = "archives"
