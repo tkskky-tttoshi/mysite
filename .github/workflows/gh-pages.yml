@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - main #set a branch name to trigger deployment
+      - master #set a branch name to trigger deployment
 
 jobs:
   deploy:
@@ -32,8 +32,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{secrets.ACTIONS_DEPLOY_KEY}}
-          external_repository: tkskky-tttoshi/mysite.github.io
+          external_repository: tkskky-tttoshi/toshitoshi.github.io
           publish_branch: master
-          cname: toshitoshi.jp
+          cname: toshi_site.com
 
 
