@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://tkskky-tttoshi.github.io/"
 languageCode = "en-us"
-title = "My New Site"
+title = "My Site"
 theme = "hugo-uilite"
 
 [taxonomies]
