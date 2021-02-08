@@ -1,8 +1,7 @@
 name: github pages
 
 on:
-  push:
-    branches:
+  push: branches:
       - master #set a branch name to trigger deployment
 
 jobs:
@@ -34,6 +33,6 @@ jobs:
           deploy_key: ${{secrets.ACTIONS_DEPLOY_KEY}}
           external_repository: tkskky-tttoshi/tkskky-tttoshi.github.io
           publish_branch: master
-          cname: toshi_site.com
+           #cname: toshi_site.com
 
 
