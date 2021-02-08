@@ -1,4 +1,4 @@
-baseURL = "http://tkskky-tttoshi.github.io/"
+baseURL = "https://tkskky-tttoshi.github.io/"
 languageCode = "en-us"
 title = "My Site"
 theme = "hugo-uilite"
