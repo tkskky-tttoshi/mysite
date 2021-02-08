@@ -1,9 +1,0 @@
-baseURL = "https://tkskky-tttoshi.github.io/"
-languageCode = "en-us"
-title = "My Site"
-theme = "hugo-uilite"
-
-[taxonomies]
-	tag = "tags"
-	category = "categories"
-	archive = "archives"
